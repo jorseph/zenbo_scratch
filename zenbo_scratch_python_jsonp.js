@@ -30,7 +30,7 @@
 			$.ajax({
 				type: 'GET',
 				url: 'http://' + ip + port + '/?name=Get_sentences',
-				dataType: 'jsonp',
+				dataType: 'text',
 				crossDomain: true,
 				success: function (data) {
 				console.log("Get_sentences-success handler");
@@ -118,7 +118,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Head_movement' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -138,7 +138,7 @@
         console.log(p3);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Body_movement' + '&p1=' + p1 + '&p2=' + p2 + '&p3=' + p3,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -157,7 +157,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Body_turn' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -175,7 +175,7 @@
         console.log(p1);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Remote_control_body' + '&p1=' + p1,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -193,7 +193,7 @@
         console.log(ip);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Stop_moving',
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -208,7 +208,7 @@
         console.log(ip);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Cancel_actionset',
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -227,7 +227,7 @@
         console.log(p1);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Action' + '&p1=' + p1,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -245,7 +245,7 @@
         console.log(p1);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Facial' + '&p1=' + p1,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -263,7 +263,7 @@
         console.log(p1);
         $.ajax({
             url: 'http://' + ip + port + '/?name=TTS' + '&p1=' + p1,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -281,7 +281,7 @@
         console.log(p1);
         $.ajax({
             url: 'http://' + ip + port + '/?name=TTS_editor' + '&p1=' + p1,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -298,7 +298,7 @@
         console.log(ip);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Cancel_actionset',
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -317,7 +317,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Adjust_stream_volume' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -335,7 +335,7 @@
 
         $.ajax({
             url: 'http://' + ip + port + '/?name=Add_and_update_sentence' + '&p1=' + 'test' + '&p2=' + 'zenbo',
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
             console.log("success handler");
@@ -377,7 +377,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Add_and_update_sentence' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
             console.log("success handler");			
@@ -394,7 +394,7 @@
         console.log(ip);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Delete_instance',
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -411,7 +411,7 @@
         console.log(ip);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Speak_and_listen',
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
             console.log("Speak_and_listen-success handler");	 
@@ -430,7 +430,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Play_music' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -449,7 +449,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=Adjust_tts_and_speed' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -468,7 +468,7 @@
         $.ajax({
             type: 'GET',  
             url: 'http://' + ip + port + '/?name=Get_sentences',
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -612,7 +612,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=playVideosInYoutube' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -631,7 +631,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=displayUrlPictures' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -650,7 +650,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=playUrlMusic' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -667,7 +667,7 @@
         console.log(ip);
         $.ajax({
             url: 'http://' + ip + port + '/?name=hideFace',
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -686,7 +686,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=openDriveUrl' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -705,7 +705,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=openDriveVideoUrl' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -724,7 +724,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=openDriveAudioUrl' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -743,7 +743,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=openDrivePictureUrl' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -762,7 +762,7 @@
         console.log(p2);
         $.ajax({
             url: 'http://' + ip + port + '/?name=openDriveDocumentUrl' + '&p1=' + p1 + '&p2=' + p2,
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
                 console.log("success handler");
@@ -781,7 +781,7 @@ ext.Add_and_update_sentence_number = function (ip) {
   
         $.ajax({
             url: 'http://' + ip + port + '/?name=Add_and_update_sentence' + '&p1=' + 'test' + '&p2=' + 'zenbo',
-            dataType: 'jsonp',
+            dataType: 'text',
             crossDomain: true,
             success: function (data) {
             console.log("success handler");
